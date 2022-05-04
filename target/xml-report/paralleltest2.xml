@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="52.218">
+<testcase classname="Unknown" name="US_003 User can reach  article by click  article title." time="15.133">
+<failure message="element click intercepted: Element &lt;a href=&quot;https://blog.ispeakbetter.com/3-hacks-to-learn-english-better-and-faster/&quot; class=&quot;post_list_item_title h3&quot;&gt;...&lt;/a&gt; is not clickable at point (849, 631). Other element would receive the click: &lt;div id=&quot;zsiq_maintitle&quot; class=&quot;zsiq_ellips&quot; title=&quot;...&quot;&gt;We're Online!&lt;/div&gt;&#10;  (Session info: chrome=100.0.4896.127)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-CT05L9D', ip: '192.168.1.62', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_302'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\melne\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49827}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 1607a4b108d0fb7a5d5e1ed5f799120f" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[Given User will be on home page.............................................passed
+When User will click on blog section........................................passed
+And User will click to thirds article title.................................failed
+Then User will see the blog.................................................skipped
+
+StackTrace:
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="https://blog.ispeakbetter.com/3-hacks-to-learn-english-better-and-faster/" class="post_list_item_title h3">...</a> is not clickable at point (849, 631). Other element would receive the click: <div id="zsiq_maintitle" class="zsiq_ellips" title="...">We're Online!</div>
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-CT05L9D', ip: '192.168.1.62', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_302'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\melne\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49827}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1607a4b108d0fb7a5d5e1ed5f799120f
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at stepdefinitions.BlogSD.userWillClickToThirdsArticleTitle(BlogSD.java:71)
+	at ✽.User will click to thirds article title(file:///C:/Users/melne/IdeaProjects/ISpeakBetterCapstoneProject/src/test/resources/features/Blog.feature:26)
+]]></failure>
+</testcase>
+<testcase classname="Unknown" name="US_004 User can reach article source from blog page." time="21.053">
+<system-out><![CDATA[Given User will be on home page.............................................passed
+When User will click on blog section........................................passed
+And User will open the blog.................................................passed
+And User will click the source link.........................................passed
+Then User will see the IELTS destination page...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Unknown" name="US_005 User can reach articles by clicking #onlinelearning tag" time="15.628">
+<system-out><![CDATA[Given User will be on home page.............................................passed
+When User will click on blog section........................................passed
+And User will click to English Article......................................passed
+And User will click to Online learning tag..................................passed
+Then User will see the list of Articles with the Online learning tag........passed
+]]></system-out>
+</testcase>
+</testsuite>

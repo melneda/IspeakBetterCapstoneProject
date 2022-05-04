@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="8" time="173.996">
+<testcase classname="About Feature" name="US_017 User can Select English from Language Box" time="11.597">
+<system-out><![CDATA[Given User on the About pageL...............................................passed
+When User clicks to English button..........................................passed
+Then Verify that you switch to the English  button..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="About Feature" name="US_018 User can Select Turkish from Language Box" time="12.371">
+<system-out><![CDATA[Given User on the About pageL...............................................passed
+When User clicks to Turkish page............................................passed
+Then Verify that you switch to the Turkish  button..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="About Feature" name="US_019 User can Select Mongolian from Language Box" time="14.538">
+<system-out><![CDATA[Given User on the About pageL...............................................passed
+When User clicks to Mongolian page..........................................passed
+Then Verify that you switch to the Mongolian  button........................passed
+]]></system-out>
+</testcase>
+<testcase classname="About Feature" name="US_019 User can Select Chinese from Language Box" time="13.004">
+<system-out><![CDATA[Given User on the About pageL...............................................passed
+When User clicks to Chinese page............................................passed
+Then Verify that you switch to the Chinese  button..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="About Feature" name="US_020 User can Select Russian from Language Box" time="13.925">
+<system-out><![CDATA[Given User on the About pageL...............................................passed
+When User clicks to Russian page............................................passed
+Then Verify that you switch to the Russian  button..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="About Feature" name="US_021 User can Select Arabic from Language Box" time="14.326">
+<system-out><![CDATA[Given User on the About pageL...............................................passed
+When User clicks to Arabic page.............................................passed
+Then Verify that you switch to the Arabic  button...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Feature" name="US_022 User can  Login positive testing" time="49.419">
+<system-out><![CDATA[Given User is on the ISpeakBetter HomePage..................................passed
+When User click log in......................................................passed
+Then user enter username and password.......................................passed
+Then user log in............................................................passed
+Then Verify page url........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Feature" name="US_023 User can Login negative testing" time="44.593">
+<system-out><![CDATA[Given User is on the ISpeakBetter HomePage..................................passed
+When User click log in......................................................passed
+Then user enter wrong username and  wrong password..........................passed
+Then user log in............................................................passed
+Then User get alert.........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="40.184">
+<testcase classname="Login Feature" name="US_022 User can  Login positive testing" time="20.03">
+<system-out><![CDATA[Given User is on the ISpeakBetter HomePage..................................passed
+When User click log in......................................................passed
+Then user enter username and password.......................................passed
+Then user log in............................................................passed
+Then Verify page url........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Feature" name="US_023 User can Login negative testing" time="19.875">
+<system-out><![CDATA[Given User is on the ISpeakBetter HomePage..................................passed
+When User click log in......................................................passed
+Then user enter wrong username and  wrong password..........................passed
+Then user log in............................................................passed
+Then User get alert.........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

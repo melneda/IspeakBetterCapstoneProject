@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="103.986">
+<testcase classname="Unknown" name="US_001 User can reach blog articles by clicking picture." time="45.159">
+<system-out><![CDATA[Given User will be on home page.............................................passed
+When User will click on blog section........................................passed
+And User will click to picture..............................................passed
+Then User will see the correct blog.........................................passed
+Given User will be on home page.............................................passed
+When User will click on blog section........................................passed
+And User see title and verify Blog title....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="About Feature" name="US_017 User can Select English from Language Box" time="24.006">
+<system-out><![CDATA[Given User on the About pageL...............................................passed
+When User clicks to English button..........................................passed
+Then Verify that you switch to the English  button..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Feature" name="US_022 User can  Login positive testing" time="34.021">
+<system-out><![CDATA[Given User is on the ISpeakBetter HomePage..................................passed
+When User click log in......................................................passed
+Then user enter username and password.......................................passed
+Then user log in............................................................passed
+Then Verify page url........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

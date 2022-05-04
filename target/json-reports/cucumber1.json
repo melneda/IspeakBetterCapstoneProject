@@ -1,0 +1,329 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-27T11:25:44.589Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8017000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hook.start()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "US_001 User can reach blog articles by clicking picture.",
+        "description": "",
+        "id": ";us-001-user-can-reach-blog-articles-by-clicking-picture.",
+        "after": [
+          {
+            "result": {
+              "duration": 4526000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7509000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User will be on home page",
+            "match": {
+              "location": "stepdefinitions.BlogSD.userWillBeOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8631000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User will click on blog section",
+            "match": {
+              "location": "stepdefinitions.BlogSD.userWillClickOnBlogSection()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2406000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User will click to picture",
+            "match": {
+              "location": "stepdefinitions.BlogSD.userWillClickToPicture()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 768000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User will see the correct blog",
+            "match": {
+              "location": "stepdefinitions.BlogSD.userWillSeeTheCorrectBlog()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7360000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User will be on home page",
+            "match": {
+              "location": "stepdefinitions.BlogSD.userWillBeOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4931000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User will click on blog section",
+            "match": {
+              "location": "stepdefinitions.BlogSD.userWillClickOnBlogSection()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 752000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User see title and verify Blog title",
+            "match": {
+              "location": "stepdefinitions.BlogSD.userSeeTitleAndVerifyBlogTitle()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@a"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Blog.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-27T11:26:29.775Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7972000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hook.start()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "US_017 User can Select English from Language Box",
+        "description": "",
+        "id": "about-feature;us-017-user-can-select-english-from-language-box",
+        "after": [
+          {
+            "result": {
+              "duration": 287000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14563000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User on the About pageL",
+            "match": {
+              "location": "stepdefinitions.LanguageSD.gotoAboutPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1131000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks to English button",
+            "match": {
+              "location": "stepdefinitions.LanguageSD.userClicksToEnglishButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 44000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify that you switch to the English  button",
+            "match": {
+              "location": "stepdefinitions.LanguageSD.verifyThatYouSwitchToTheEnglishButton()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@a"
+          }
+        ]
+      }
+    ],
+    "name": "About Feature",
+    "description": "",
+    "id": "about-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Language.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-27T11:26:53.804Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8596000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hook.start()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "US_022 User can  Login positive testing",
+        "description": "",
+        "id": "login-feature;us-022-user-can--login-positive-testing",
+        "after": [
+          {
+            "result": {
+              "duration": 611000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7333000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the ISpeakBetter HomePage",
+            "match": {
+              "location": "stepdefinitions.HomePageSD.verifyTheHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13660000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User click log in",
+            "match": {
+              "location": "stepdefinitions.LoginSD.userClickLogIn()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 906000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter username and password",
+            "match": {
+              "location": "stepdefinitions.LoginSD.userEnterUsernameAndPassword()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2766000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user log in",
+            "match": {
+              "location": "stepdefinitions.LoginSD.userLogIn()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 138000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify page url",
+            "match": {
+              "location": "stepdefinitions.LoginSD.verifyPageUrl()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@a"
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="49.832">
+<testcase classname="Unknown" name="US_001 User can reach blog articles by clicking picture." time="29.678">
+<system-out><![CDATA[Given User will be on home page.............................................passed
+When User will click on blog section........................................passed
+And User will click to picture..............................................passed
+Then User will see the correct blog.........................................passed
+Given User will be on home page.............................................passed
+When User will click on blog section........................................passed
+And User see title and verify Blog title....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Unknown" name="US_002 User can see English Articles by clicking #Engisharticle tag and see Articles in second page also." time="19.931">
+<system-out><![CDATA[Given User will be on home page.............................................passed
+When User will click on blog section........................................passed
+And User will click to English Article......................................passed
+And User will click to second page..........................................passed
+Then User will see the list of English Articles.............................passed
+]]></system-out>
+</testcase>
+</testsuite>
